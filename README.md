@@ -6,7 +6,7 @@ Acest proiect propune proiectarea și implementarea unui sistem informatic dedic
 ### Motivația alegerii și particularități de proiectare
 Spre deosebire de un magazin online generic, un magazin specializat pe suport fizic și echipamente Hi-Fi ridică trei probleme specifice de modelare a datelor:
 1. **Ierarhia Muzicală (Album Master -> Ediție/Pressing -> Exemplar Fizic):** Separarea între opera muzicală (albumul lansat de un artist), ediția fizică specifică (ex: reeditare vinil 180g vs. ediție originală CD) și exemplarul fizic propriu-zis aflat în stoc (care pot fi *Nou/Sigilat* sau *Second-Hand/Vintage*, având o stare specifică a discului și a copertei - sitemul Goldmine: *Mint, Near Mint, Very Good+*).
-2. **Eterogenitatea Profuselor (Moștenier în BD relaționale):** Produsele împart atribute comune (cod SKU, preț, furnizor), dar au specificații tehnice complet diferite în funcție de categorie (viteză de rotație și casă de discuri pentru viniluri vs. impedanță, putere, tipuri de conectori RCA/DIN/XLR pentru echipamente).
+2. **Eterogenitatea Produselor (Moștenire în BD relaționale):** Produsele împart atribute comune (cod SKU, preț, furnizor), dar au specificații tehnice complet diferite în funcție de categorie (viteză de rotație și casă de discuri pentru viniluri vs. impedanță, putere, tipuri de conectori RCA/DIN/XLR pentru echipamente).
 3. **Compatibilitatea Tehnică Între Echipamente:** Modelarea relațiilor de compatibilitate între produse și componente (ex: ce doze/ace de schimb sunt compatibile cu un anumit braț de pickup)
 
 
