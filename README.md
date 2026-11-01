@@ -4,3 +4,4 @@
 * Research gestiune stoc
 * Setup mediu de lucru în Postgres
 * Research Node.js și React
+* Scrierea script-urilor SQL
